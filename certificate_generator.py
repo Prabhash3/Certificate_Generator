@@ -8,7 +8,7 @@ import os
 #pip install os
 
 df = pd.read_csv('certificate.csv') #Read from .csv file
-font = ImageFont.truetype('arial.ttf',60) #Font style and size
+font = ImageFont.truetype('fonts/MLSJN.ttf',60) #Font style and size
 
 for index,j in df.iterrows():
     img = Image.open('certificate.jpeg') #Open the .jpeg file
